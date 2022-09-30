@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.conteiner{
+    width: 100%;
+    height: 100vh;
+}
+.allWith{
+    width: 85%;
+    margin: auto;
+}
+.conteiner #bann{
+    width: 100%;
+}
+
+.conteiner  header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 62, 41);
+    position: relative;
+    top: -5px;
+}
+.conteiner  header img{
+    width: 7%;
+    height: 40px;
+    position: relative;
+    left: 100px;
+    top: 25px;
+
+
+}
+.conteiner  header ul{
+    display: flex;
+    gap: 50px;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 400px;
+    top: 30px;
+    transition:1s all;
+}
+.conteiner  header ul :hover{
+    border: 1px solid transparent;
+    background-color:rgb(105, 154, 110) ;
+    padding: 10px 16px;
+    border-radius: 15px;
+}
+.conteiner  header span{
+    border: 1px solid transparent;
+    height: 50px;
+    padding: 15px 25px;
+    background-color: rgb(105, 154, 110);
+    color: white;
+    position: relative;
+    right: 80px;
+    top: 18px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+/*  */
+.conteiner .bosh{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+.conteiner .bosh img{
+
+    width: 100%;
+    
+}
+/*  */
+.conteiner .allWith .can{
+   text-align: center;
+   margin-top: 100px;
+}
+.conteiner .allWith .can img{
+    width: 50%;
+    
+
+}
+/*  */
+.conteiner .allWith .landing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 80px;
+
+}
+.conteiner .allWith .landing img {
+    width: 48%;
+}
+/*  */
+.conteiner .allWith .page {
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+}
+.conteiner .allWith .page h1{
+    font-size: 75px;
+    font-weight: 50;
+}
+.conteiner .allWith .page span{
+    padding: 15px 20px;
+    border: 1px solid transparent;
+    background:rgb(207, 231, 221) ;
+    border-radius: 15px;
+}
+/*  */
+.conteiner .allWith .about {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    gap: 40px;
+}
+.conteiner .allWith .about  img{
+    width: 48%;
+  
+}
+/*  */
+.conteiner .allWith .cms{
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+}
+.conteiner .allWith .cms h1{
+    font-size: 75px;
+    font-weight: 50;
+}
+.conteiner .allWith .cms span{
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    background:rgb(207, 231, 221) ;
+    border-radius: 15px;
+}
+/*  */
+.conteiner .allWith .blog {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    gap: 40px;
+}
+.conteiner .allWith .blog  img{
+    width: 48%;
+  
+}
+/*  */
+.conteiner .allWith .pricing{
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+}
+.conteiner .allWith .pricing h1{
+    font-size: 75px;
+    font-weight: 50;
+}
+.conteiner .allWith .pricing span{
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    background:rgb(207, 231, 221) ;
+    border-radius: 15px;
+}
+/*  */
+.conteiner .allWith .question{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    gap: 40px;
+}
+.conteiner .allWith .question img{
+    width: 48%;
+  
+}
+/*  */
+.conteiner .allWith .additi{
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+}
+.conteiner .allWith .additi h1{
+    font-size: 75px;
+    font-weight: 50;
+}
+.conteiner .allWith .additi span{
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    background:rgb(207, 231, 221) ;
+    border-radius: 15px;
+}
+/*  */
+.conteiner .allWith .aditional{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.conteiner .allWith .aditional .registr{
+    width: 48%;
+    height: 150px;
+    border: 1px solid transparent;
+    background-color:rgb(207, 231, 221) ;
+    border-radius: 20px;
+    position: relative;
+}
+.conteiner .allWith .aditional .registr p{
+    font-size: 25px;
+    position: absolute;
+    top: 65px;
+    left: 70px;
+}
+.conteiner .allWith .aditional .registr i{
+   position: absolute; 
+   left: 700px;
+   top: 68px;
+   font-size: 30px;
+   font-weight: 400;
+}
+/*  */
+.conteiner .allWith .build{
+    width: 100%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/rasm/IMAGE\ \(19\).png");
+    margin-top: 100px;
+    position: relative;
+}
+.conteiner .allWith .build h1{
+    font-size: 70px;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+}
+.conteiner .allWith .build h2{
+    font-size: 70px;
+    font-weight: 400;
+    color: rgb(174, 195, 146);
+    position: absolute;
+    left: 100px;
+    top: 250px;
+}
+.conteiner .allWith .build p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    left: 280px;
+    top: 270px;
+}
+.conteiner .allWith .build span{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    left: 500px;
+    top: 270px;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    background:rgb(174, 195, 146) ;
+    border-radius: 15px;
+}
+/*  */
+.conteiner .ohiri{
+    width: 100%;
+    height: 800px;
+    background-image: url("/rasm/Rectangle.png");
+    margin-top: 150px;
+}
+.conteiner .ohiri .allWith .withaling{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.conteiner .ohiri .allWith .withaling h1{
+    color: white;
+    font-size: 75px;
+    font-weight: 400;
+    position: absolute;
+    top: 100px;
+}
+.conteiner .ohiri .allWith .withaling  ul{
+    color: rgb(107, 130, 109);
+    font-size: 25px;
+    position: relative;
+    left: 1150px;
+    top: 100px;
+   
+}
+.conteiner .ohiri .allWith .withaling  ul :first-child{
+    color: white;
+
+}
+.conteiner .ohiri .allWith .withaling #ul1{
+   position: relative;
+   left: 900px;
+}
+.conteiner .ohiri .allWith .withaling #ul2{
+    position: relative;
+   left: 1050px;
+ }
+.conteiner .ohiri .allWith .withaling  p{
+    color:white;
+    font-size: 25px;
+    position: absolute;
+    top: 300px;
+
+}
+.conteiner .ohiri .allWith #sen30{
+    width: 100%;
+    margin-top: 150px;
+    background-size: cover;
+}
+/*  */
